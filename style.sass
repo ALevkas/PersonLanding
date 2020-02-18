@@ -93,6 +93,7 @@ $menu-speed: 0.75s
         border-right: 0
 
 .menu-wrap
+    visibility: hidden
     position: fixed
     top: 0
     left: 0
@@ -201,15 +202,23 @@ $menu-speed: 0.75s
     .header
         grid-template-columns: repeat(1, 1fr)
         &_item-1
+            border: 0
             min-height: 100vh
-        &_item-2 
+        &_item-2
+            border: 0 
             min-height: 100vh
         &_item-3
+            border: 0
             min-height: 100vh
         &_item-4
+            border: 0
             min-height: 100vh
         &_item-5
+            border: 0
             min-height: 100vh
         &_item-6
+            border: 0
             min-height: 100vh
             grid-column-start: span 2
+    .menu-wrap
+        visibility: visible
