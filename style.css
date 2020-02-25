@@ -94,8 +94,6 @@
   border: #fff solid 1px;
   border-bottom: 0;
   border-left: 0;
-  -webkit-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
   cursor: pointer;
 }
 
@@ -175,8 +173,8 @@
 .header .showInfoItem-4 {
   -webkit-animation-name: open;
           animation-name: open;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-direction: normal;
@@ -205,8 +203,8 @@
 .header .hiddenInfoItem-4 {
   -webkit-animation-name: closed;
           animation-name: closed;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-direction: normal;
