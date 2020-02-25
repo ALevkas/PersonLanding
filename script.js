@@ -12,3 +12,17 @@ for (let anchor of anchors) {
         })
     })
 }
+
+
+//Отобразить - скрыть блок обо мне.
+const item4 = document.querySelector('.header_item-4');
+item4.addEventListener("click", function(event) {
+    if (item4.classList.contains('showInfoItem-4')) {
+        item4.classList.remove('showInfoItem-4');
+        item4.classList.add('hiddenInfoItem-4');
+    } else {
+        item4.classList.remove('hiddenInfoItem-4');
+        item4.classList.add('showInfoItem-4');
+    }
+
+})
