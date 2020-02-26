@@ -146,6 +146,55 @@
   border: #fff solid 1px;
   color: #1c1e22;
   border-bottom: 0;
+  cursor: pointer;
+}
+
+.header_item-5__info {
+  display: none;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  -webkit-column-gap: 25px;
+          column-gap: 25px;
+}
+
+.header_item-5__info-instagram {
+  height: 30px;
+  width: 30px;
+  background: url("./instagram.svg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.header_item-5__info-telegram {
+  height: 30px;
+  width: 30px;
+  background: url("./telegram.svg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.header_item-5__info-google {
+  height: 30px;
+  width: 30px;
+  background: url("./google-plus.svg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.header_item-5__info-vk {
+  height: 30px;
+  width: 30px;
+  background: url("./vk.svg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.header_item-5__info-github {
+  height: 30px;
+  width: 30px;
+  background: url("./github.svg");
+  background-position: center center;
+  background-size: cover;
 }
 
 .header_item-6 {
@@ -173,8 +222,8 @@
 .header .showInfoItem-4 {
   -webkit-animation-name: open;
           animation-name: open;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-direction: normal;
@@ -203,8 +252,8 @@
 .header .hiddenInfoItem-4 {
   -webkit-animation-name: closed;
           animation-name: closed;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-direction: normal;
@@ -226,6 +275,57 @@
 }
 
 .header .hiddenInfoItem-4 .header_item-4__info {
+  display: none;
+}
+
+.header .showInfoItem-5 {
+  -webkit-animation-name: open;
+          animation-name: open;
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.header .showInfoItem-5 .header_item-5__title {
+  display: none;
+}
+
+.header .showInfoItem-5 .header_item-5__info {
+  display: -ms-grid;
+  display: grid;
+}
+
+.header .hiddenInfoItem-5 {
+  -webkit-animation-name: closed;
+          animation-name: closed;
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.header .hiddenInfoItem-5 .header_item-5__title {
+  display: block;
+}
+
+.header .hiddenInfoItem-5 .header_item-5__info {
   display: none;
 }
 

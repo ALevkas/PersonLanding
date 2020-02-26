@@ -98,6 +98,41 @@ $menu-speed: 0.75s
         border: #fff solid 1px
         color: #1c1e22
         border-bottom: 0
+        cursor: pointer
+        &__info
+            display: none
+            grid-template-columns: repeat(5, 1fr)
+            column-gap: 25px
+            &-instagram
+                height: 30px
+                width: 30px
+                background: url('./instagram.svg')
+                background-position: center center
+                background-size: cover
+            &-telegram
+                height: 30px
+                width: 30px
+                background: url('./telegram.svg')
+                background-position: center center
+                background-size: cover
+            &-google
+                height: 30px
+                width: 30px
+                background: url('./google-plus.svg')
+                background-position: center center
+                background-size: cover
+            &-vk
+                height: 30px
+                width: 30px
+                background: url('./vk.svg')
+                background-position: center center
+                background-size: cover
+            &-github
+                height: 30px
+                width: 30px
+                background: url('./github.svg')
+                background-position: center center
+                background-size: cover
     &_item-6
         display: grid
         align-items: center
@@ -116,7 +151,7 @@ $menu-speed: 0.75s
 
     .showInfoItem-4
         animation-name: open
-        animation-duration: 1s
+        animation-duration: 0.7s
         animation-iteration-count: 1
         animation-direction: normal
         animation-timing-function: ease-out
@@ -131,7 +166,7 @@ $menu-speed: 0.75s
 
     .hiddenInfoItem-4
         animation-name: closed
-        animation-duration: 1s
+        animation-duration: 0.7s
         animation-iteration-count: 1
         animation-direction: normal
         animation-timing-function: ease-out
@@ -142,6 +177,32 @@ $menu-speed: 0.75s
         .header_item-4__title-new
             display: none
         .header_item-4__info
+            display: none
+
+    .showInfoItem-5
+        animation-name: open
+        animation-duration: 0.7s
+        animation-iteration-count: 1
+        animation-direction: normal
+        animation-timing-function: ease-out
+        animation-fill-mode: forwards
+        animation-delay: 0s
+        .header_item-5__title
+            display: none
+        .header_item-5__info
+            display: grid
+
+    .hiddenInfoItem-5
+        animation-name: closed
+        animation-duration: 0.7s
+        animation-iteration-count: 1
+        animation-direction: normal
+        animation-timing-function: ease-out
+        animation-fill-mode: forwards
+        animation-delay: 0s
+        .header_item-5__title
+            display: block
+        .header_item-5__info
             display: none
 
     @keyframes open 

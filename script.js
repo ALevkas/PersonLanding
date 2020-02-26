@@ -24,5 +24,16 @@ item4.addEventListener("click", function(event) {
         item4.classList.remove('hiddenInfoItem-4');
         item4.classList.add('showInfoItem-4');
     }
+})
 
+//Отобразить - скрыть блок контакты.
+const item5 = document.querySelector('.header_item-5');
+item5.addEventListener("click", function(event) {
+    if (item5.classList.contains('showInfoItem-5')) {
+        item5.classList.remove('showInfoItem-5');
+        item5.classList.add('hiddenInfoItem-5');
+    } else {
+        item5.classList.remove('hiddenInfoItem-5');
+        item5.classList.add('showInfoItem-5');
+    }
 })
